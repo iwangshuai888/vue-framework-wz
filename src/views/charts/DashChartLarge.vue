@@ -46,19 +46,19 @@ option :{
         ],
         yAxis: [
             {
-                name: '（单价）',
+                name: '（资源）',
                 type: 'value',
                 max: 100
             },
             {
-                name: '（笔数）',
+                name: '（用户）',
                 type: 'value',
                 max: 100
             }
         ],
         series: [
             {
-                name: '客单价',
+                name: '资源',
                 type: 'line',
                 tooltip: {
                     trigger: 'axis'
@@ -79,7 +79,7 @@ option :{
                 data: [10, 12, 21, 54, 60, 80, 71]
             },
             {
-                name: '交易笔数',
+                name: '用户',
                 type: 'line',
                 tooltip: {
                     trigger: 'axis'

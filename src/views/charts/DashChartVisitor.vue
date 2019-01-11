@@ -25,19 +25,19 @@
 
 var data = [{
     value: 3661,
-    name: '<10w'
+    name: '>0'
 }, {
     value: 5713,
-    name: '10w-50w'
+    name: '0-100'
 }, {
     value: 9938,
-    name: '50w-100w'
+    name: '100-500'
 }, {
     value: 17623,
-    name: '100w-500w'
+    name: '500-2000'
 }, {
     value: 3299,
-    name: '>500w'
+    name: '>2000'
 }];
 
 
@@ -55,8 +55,8 @@ export default {
 option : {
     backgroundColor: '#49586e',
     title: {
-        text: '注册资金',
-        x: '20%',
+        text: '积分分布图',
+        x: '24%',
         y: 'center',
         textStyle: {
             fontWeight: 'normal',
@@ -78,7 +78,7 @@ option : {
             fontSize: 16,
              color: '#fff',
         },
-        data: ['<10w', '10w-50w', '50w-100w', '100w-500w', '>500w']
+        data: ['>0', '0-100', '100-500', '500-2000', '>2000']
     },
     series: [{
         type: 'pie',

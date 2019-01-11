@@ -16,14 +16,14 @@
 
           <router-link tag="div" to='/'  style="height:55px;" class="nav-link">
             <p><Icon type="compose" size='30' color="#2d8cf0"></Icon></p>
-            <p  style="color:white"> 留言管理 </p>
+            <p  style="color:white"> 系統管理 </p>
         </router-link> 
       </li>
         <li class="nav-item header-item">
         
         <router-link tag="div" to='/home1'  style="height:55px;" class="nav-link">
             <p><Icon type="stats-bars" size='30' color="#2d8cf0"></Icon></p>
-            <p  style="color:white"> 浏览排行 </p>
+            <p  style="color:white"> 积分管理 </p>
         </router-link> 
 
 
@@ -56,7 +56,7 @@
 
          <router-link tag="div" to='/home1'  style="height:55px;" class="nav-link">
             <p><Icon type="trophy" size='30' color="#2d8cf0"></Icon></p>
-            <p  style="color:white"> 销量排行 </p>
+            <p  style="color:white"> 积分排行 </p>
         </router-link> 
 
 

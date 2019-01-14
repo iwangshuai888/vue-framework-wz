@@ -2,8 +2,8 @@
     <div class="animated fadeIn">
         <Row>
             <Col :sm="24" :md="24" :lg="12">
-                <h3>景安最牛的后台管理</h3>
-                <p>全新VUE打造最新项目</p>
+                <h3>资料管理</h3>
+                <p>全新Vue 2.0</p>
             </Col>
         </Row>
 

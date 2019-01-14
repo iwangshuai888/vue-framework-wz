@@ -84,4 +84,4 @@ module.exports = {
     // sassLoader: {
     //     data:  path.join(__dirname, '../src/styles/index.scss')
     // },
-}
+};

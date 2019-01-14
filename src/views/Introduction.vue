@@ -72,13 +72,13 @@
  <Row>
         <Col :md="12" >
           
-          <p><a href="http://www.cnblogs.com/herozhou/p/7434931.html" target="_blank">一步步带你做vue后台管理框架(一)——介绍框架</a></p>
+        <!--  <p><a href="http://www.cnblogs.com/herozhou/p/7434931.html" target="_blank">一步步带你做vue后台管理框架(一)——介绍框架</a></p>
           <p><a href="http://www.cnblogs.com/herozhou/p/7441702.html" target="_blank">一步步带你做vue后台管理框架(二)——上手使用</a></p>
           
 
           <p>后续课程正在日夜撰写中，接下来会讲一下 登录鉴权、路由、webpack、自己动手封装UI组件 等内容</p>
           <p> 希望大家能够根据此项目和教程开发出自己的框架，从而在工作学习中得心应手</p>
-
+-->
         </Col>
 
          <Col :md="12" >
@@ -100,11 +100,12 @@
 
      <Row class="row-margin-top">
         <Col :xs="12" :sm="12" :md="8" :lg="8">
+
           <h5>Yi+内容审核平台</h5>
             <p>
             基于WZ开发的稳定高效的平台，用于涉黄、涉政、涉暴检测。
             </p>
-            <p><a href="http://censorship.dressplus.cn/#/introduction" target="_blank">立即访问</a></p>
+           <!-- <p><a href="http://censorship.dressplus.cn/#/introduction" target="_blank">立即访问</a></p>-->
 
 
 
@@ -115,20 +116,20 @@
           <h5>Yi+ 人脸识别 </h5>
             <p>基于WZ开发的人脸识别平台，采用行业领先的图像识别技术, 
             </p>
-            <p><a href="http://faceattr.dressplus.cn/" target="_blank">立即访问</a></p>
+            <!--<p><a href="http://faceattr.dressplus.cn/" target="_blank">立即访问</a></p>-->
 
         </Col>
        
       
 
-        <Col :xs="12" :sm="12" :md="8" :lg="8">
+      <!--  <Col :xs="12" :sm="12" :md="8" :lg="8">
           <h5>Yi+ 边看边买 </h5>
             <p>
             基于WZ框架开发出的边看边买推荐系统
             </p>
             <p><a href="http://recommand-demo.dressplus.cn" target="_blank">立即访问</a></p>
 
-        </Col>
+        </Col>-->
      
     </Row>
 

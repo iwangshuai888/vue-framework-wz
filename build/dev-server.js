@@ -4,7 +4,7 @@ if (!process.env.NODE_ENV) {
     process.env.NODE_ENV = JSON.parse(config.dev.env.NODE_ENV)
 }
 
-var opn = require('opn')
+var opn = require('opn');
 var path = require('path');
 var express = require('express');
 var webpack = require('webpack');
@@ -46,7 +46,7 @@ compiler.plugin('compilation', function (compilation) {
 
 // proxy api requests
 Object.keys(proxyTable).forEach(function (context) {
-    var options = proxyTable[context]
+    var options = proxyTable[context];
     if (typeof options === 'string') {
         options = {target: options}
     }
@@ -70,7 +70,7 @@ var staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsS
 app.use(staticPath, express.static('./static'));
 
 
-var uri = 'http://localhost:' + port
+var uri = 'http://localhost:' + port;
 
 devMiddleware.waitUntilValid(function () {
     console.log('> Listening at ' + uri + '\n')

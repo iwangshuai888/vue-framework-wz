@@ -53,6 +53,10 @@ export const asyncRouterMap = [
         children: [
             {path: '/dashboard', name: '控制台', icon: 'speedometer', component: _import('Dashboard')},
             {path: '/manage', name: '资料管理', icon: 'ios-paper',component: manage},
+            {path: '/manage', name: '消息提醒', icon: 'ios-paper',component: manage},
+            {path: '/manage', name: '积分管理', icon: 'ios-paper',component: manage},
+            {path: '/manage', name: '系统配置', icon: 'ios-paper',component: manage},
+            {path: '/manage', name: '系统配置', icon: 'ios-paper',component: manage},
             {path: '/introduction', name: '介绍', icon: 'thumbsup', component: _import('Introduction')},
             {
                 path: '/components', name: 'component组件', redirect: '/components/buttons', icon: 'bookmark',

@@ -117,7 +117,7 @@ export default {
                     imgNode.attr('src', value);
                     item.replace(imgNode);
                 }
-            })
+            });
             return serializer.serialize(nodes);
         }
     }
